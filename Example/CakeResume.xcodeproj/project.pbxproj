@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		135720F8068DE8673A380F13 /* Pods_CakeResume_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakeResume_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F4FAB195D551CB5B6A6198A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F4FAB195D551CB5B6A6198A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3EB4378FF075210E5C2311F8 /* Pods_CakeResume_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CakeResume_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CakeResume_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeResume_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		6F005C92D8E6EBB50F220FB4 /* Pods-CakeResume_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeResume_Tests.release.xcconfig"; path = "Target Support Files/Pods-CakeResume_Tests/Pods-CakeResume_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8181EBCFE13BDFAE8E5BABC2 /* Pods-CakeResume_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeResume_Example.debug.xcconfig"; path = "Target Support Files/Pods-CakeResume_Example/Pods-CakeResume_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		86B6F13425A33E10FCA8DE70 /* Pods-CakeResume_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeResume_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CakeResume_Tests/Pods-CakeResume_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		94DA2DC2E74B80F30394E96B /* CakeResume.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CakeResume.podspec; path = ../CakeResume.podspec; sourceTree = "<group>"; };
-		D0926C221CFA3746E6AE6ADF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		94DA2DC2E74B80F30394E96B /* CakeResume.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CakeResume.podspec; path = ../CakeResume.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0926C221CFA3746E6AE6ADF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E260475C6E2D10214F5A6EAA /* Pods-CakeResume_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeResume_Example.release.xcconfig"; path = "Target Support Files/Pods-CakeResume_Example/Pods-CakeResume_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				86B6F13425A33E10FCA8DE70 /* Pods-CakeResume_Tests.debug.xcconfig */,
 				6F005C92D8E6EBB50F220FB4 /* Pods-CakeResume_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
