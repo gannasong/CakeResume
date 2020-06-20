@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'CakeResume_Example' do
   pod 'CakeResume', :path => '../'
-
+  # test
   target 'CakeResume_Tests' do
     inherit! :search_paths
 
